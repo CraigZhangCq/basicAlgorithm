@@ -1,4 +1,4 @@
-##<font size=6>Python实现常用算法----基础版本 </font>
+<font size=6>Python实现常用算法----基础版本 </font>
 
 ###<font size=4>一、冒泡</font>
 - 时间复杂度：O(N<sub>2</sub>)
