@@ -1,6 +1,6 @@
 <font size=6>Python实现常用算法----基础版本 </font>
 
-###<font size=4>一、冒泡</font>
+<font size=4>一、冒泡</font>
 - 时间复杂度：O(N<sub>2</sub>)
 - 空间复杂度：O(1)
 - 稳定
@@ -13,7 +13,7 @@ def bubbleSort(A,n):
     return A
 ```
 
-###<font size=4>二、选择排序</font>
+<font size=4>二、选择排序</font>
 - 时间复杂度：O(N<sub>2</sub>)
 - 空间复杂度：O(1)
 - 不稳定
@@ -28,7 +28,7 @@ def selectionSort(A,n):
     return A
 ```
 
-###<font size=4>三、插入排序</font>
+<font size=4>三、插入排序</font>
 - 时间复杂度：O(N<sub>2</sub>)
 - 空间复杂度：O(1)
 - 稳定
@@ -42,7 +42,7 @@ def insertSort(A,n):
     return A
 ```
 
-###<font size=4>四、归并排序</font>
+<font size=4>四、归并排序</font>
 - 时间复杂度：O(N<sub>2</sub>)
 - 空间复杂度：O(n)
 - 不稳定
@@ -69,7 +69,7 @@ def merge(left,right):
     return result
 ```
 
-###<font size=4>五、快速排序</font>
+<font size=4>五、快速排序</font>
 - 时间复杂度：O(N*log<sup>N</sup>)
 - 空间复杂度：O(N*log<sup>N</sup>)
 - 不稳定
@@ -95,7 +95,7 @@ def quick(lists,left,right):
 
 ```
 
-###<font size=4>六、堆排序</font>
+<font size=4>六、堆排序</font>
 - 时间复杂度：O(N*log<sup>N</sup>)
 - 空间复杂度：O(1)
 - 不稳定
@@ -121,7 +121,7 @@ def MaxHeapFixDown(A,i,n):
     A[i] = tmp
 ```
 
-###<font size=4>七、希尔排序</font>
+<font size=4>七、希尔排序</font>
 - 时间复杂度：O(N<sub>2</sub>)
 - 空间复杂度：O(1)
 - 不稳定
@@ -141,7 +141,7 @@ def shellSort(A,n):
     return A
 ```
 
-###<font size=4>八、基数排序</font>
+<font size=4>八、基数排序</font>
 - 时间复杂度：O(d(r+N)) *r为关键字基数，d为长度，n为关键字个数*
 - 空间复杂度：O(rd+n)
 - 稳定
@@ -160,5 +160,5 @@ def radix_sort(lists, radix=10):
     return lists
 ```
 
-###<font size=4>常用算法总结</font>
+<font size=4>常用算法总结</font>
 ![](image1.png)
